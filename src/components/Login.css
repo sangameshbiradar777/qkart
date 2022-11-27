@@ -1,0 +1,52 @@
+.content {
+    background-image: url("../assets/auth_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    min-width: 80%;
+    margin: 2rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    color: #8a4d58;
+}
+
+.secondary-action {
+    padding: 1rem 0;
+}
+
+.link {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.link:focus {
+    color: #a17179;
+}
+
+.link:active {
+    color: #8a4d58;
+}
+
+.link:visited {
+    color: #995662;
+}
+
+@media screen and (min-width: 768px) {
+    .content {
+        justify-content: flex-end;
+    }
+    .form {
+        min-width: 24rem;
+    }
+}
